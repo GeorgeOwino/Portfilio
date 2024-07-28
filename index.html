@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>George Owino Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-2/fontawesome.css">
+<link rel="stylesheet" href="fontawesome-1/metadata/icons.json">
+</head>
+<body>
+    <div id="header"> 
+        
+        <div class="container">
+            <nav>
+                <img src="IMAGES/logo.jpg" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Front-End Web Developer</p>
+                <h1>Hi, I'm <span>George</span><br>Owino From Kisumu</h1>
+            </div>
+            
+        </div>
+    </div>
+    <!-----about section-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMAGES/George Otieno.jpg" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Dedicated and experienced front-end web developer with a passion for 
+                        creating visually appealing dynamic and responsive websites.
+                     Over two years of hands-on experience in HTML, 
+                     CSS and JavaScript with a focus on responsive 
+                     design and cross-browser compatibility. 
+                     Adept at collaborating with cross-functional
+                      teams to translate client needs into engaging 
+                      user interfaces. Passionate about staying current
+                       with emerging web technologies to drive continous
+                        improvement in development processes.</p>
+
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+                     </div>
+                     <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web development</li>
+                            <li><span>User Experience(UX)</span><br>Designing web interfaces</li>
+                            <li><span>HTML/CSS</span><br>Coding</li>
+
+                        </ul>
+                     </div>
+                     
+                     <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Jan 2023 - Present</span><br>Web Designer at TKNP</li>
+                            <li><span>Jan 2023 - May 2023</span><br>IT support Intern at Nyanza Reproductive Health Society</li>
+                            <li><span>Jan 2022 -Jun 2022</span><br>Intership at National Hospiatl Insuarance Fund -Kisumu Branch.</li>
+
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Feb 2021 - Nov 2023</span><br>Diploma in ICT at TKNP</li>
+                            <li><span>Jan 2023 - March 2023</span><br>Certificate in Foundations of Cybersecurity at Google</li>
+                            <li><span>April 2023 - May 2023</span><br>Certificate in Managing Security Risk at Google</li>
+
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------services section-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <!-----dispalying icon below-->
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Creating visually appealling and user-friendly website layouts and interfaces and ensuring websites functions seamlessly across various devices and screen sizes. </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <!--displaying icon-->
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>User Experience(UX) Design</h2>
+                    <p>Focusing on optimizing the overall user experience to enhance usability and satisfaction.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fas fa-code"></i> <!--place an icon-->
+                    <h2>HTML/CSS Coding</h2>
+                    <p>Implementing design elements using coding languages to ensure fuctionally and compatibility. </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <h2>Maintenance and Updates</h2>
+                    <p>Providing ongoing support, updates and maintenance to keep the website current and secure. </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----Portfolio part/ projects section-->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="IMAGES/work-2.png" alt="work-2">
+                    <div class="layer">
+                        <h3>Voting Management System</h3>
+                        <p>The website allows for registration of new members who wish to join the group.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="IMAGES/work-3.png" alt="work-3">
+                    <div class="layer">
+                        <h3>Coffee Website</h3>
+                        <p>The website allows for people around the world to buy and order coffee online at a cafe store.</p>
+                        <a href="COFFEE/hom.htm">More</a>
+                    </div>
+                </div>
+<!----
+                <div class="work">
+                    <img src="IMAGES/comp.jpg" alt="comp">
+                </div>
+---->
+                <div class="work">
+                    <img src="/ECOMMERCE/CARS/BMW-steering-01.jpg" alt="work-1">
+                    <div class="layer">
+                        <h3>Tsavo Car Dealer Co.</h3>
+                        <p>The application is for An ecommerce website that allows people to purchase
+                            tractors, motorvehicles and motorcycles as well as sell them online.</p>
+                        <a href="./ECOMMERCE/index.html">More</a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <a href="#header" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <!------Contact sections-->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>Email: georgeowino744@gmail.com</p>
+                <p>Tel: +254768241220</p>
+                
+
+         <!------CV DOWNLOAD---------->
+
+         <a href="IMAGES/MY-CV.pdf" download  class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+    
+        </div>
+    </div>
+    
+       
+               
+        
+<div id="copyright">
+    <p>Copyright @ George Owino.</p>
+</div>
+
+ </div>
+</div>
+
+
+
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    /*displays current tab---*/
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+
+</script>
+
+
+</body>
+</html>
